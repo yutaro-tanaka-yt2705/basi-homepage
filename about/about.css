@@ -1,0 +1,236 @@
+#about-top{
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+      background-position: center;
+    background-image: url(https://previews.123rf.com/images/casanowe/casanowe1702/casanowe170200213/70970335-%E7%99%BD%E3%81%84%E8%83%8C%E6%99%AF%E3%81%AB%E5%88%86%E9%9B%A2%E3%81%97%E3%81%9F%E3%82%AF%E3%83%BC%E3%83%94%E3%83%BC%E3%81%97%E3%81%BE%E3%81%99%E3%80%82.jpg);
+}
+#about-second{
+    background-color: #F8F8F8;
+}
+#about-third{height: 90vh;}
+#about-forth{
+    height: 90vh;
+    background-color: #F8F8F8;
+}
+#about-fifth{
+    background-color: #FFD597;
+}
+
+.slide-text{
+    position: relative;
+}
+
+/* slide */
+
+
+:root {
+  --color-one: black;
+  --color-two: #ffffff;
+  --color-three: #454545;
+  --color-four: white;
+  --color-five: black;
+  font-family: "Avenir", sans-serif;
+}
+
+.content-box {
+  width: 100%;
+  min-width: 470px;
+  height: 100%
+  background-color: var(--color-two);
+  color: var(--color-five);
+  margin: 0px 0px 0px 0px;
+  display: grid;
+}
+
+#slider-wrapper {
+    width: 100%;
+    height: calc(100vh);
+    margin: 0px auto;
+    position: relative;
+    background: var(--color-four);
+    overflow: hidden;
+}
+  
+.inner-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+  
+.overflow-wrapper {
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+  
+#s1 {
+    padding: 6px;
+    background: var(--color-one);
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: -36px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+}
+  
+#s2 {
+    padding: 6px;
+    background: var(--color-one);
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: -12px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+}
+  
+#s3 {
+    padding: 6px;
+    background: var(--color-one);
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: 12px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+}
+  
+#s4 {
+    padding: 6px;
+    background: var(--color-one);
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: 36px;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 999;
+}
+  
+#s1:hover,
+#s2:hover,
+#s3:hover,
+#s4:hover{
+    opacity: .50;
+}
+  
+.radio {
+    display: none;
+}
+  
+#slide-1-radio:checked ~ .overflow-wrapper {
+    margin-left: 0%;
+}
+  
+#slide-2-radio:checked ~ .overflow-wrapper {
+    margin-left: -100%;
+}
+  
+#slide-3-radio:checked ~ .overflow-wrapper {
+    margin-left: -200%;
+}
+  
+#slide-4-radio:checked ~ .overflow-wrapper {
+    margin-left: -300%;
+}
+  
+#slide-1-radio:checked + #s1 {
+    opacity: 1;
+}
+  
+#slide-2-radio:checked + #s2 {
+    opacity: 1;
+}
+  
+#slide-3-radio:checked + #s3 {
+    opacity: 1;
+}
+  
+#slide-4-radio:checked + #s4 {
+    opacity: 1;
+}
+  
+.slide {
+    width: 400%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+  
+.slide button {
+    z-index: 999;
+    width: 5%;
+    min-width: 60px;
+    height: 30%;
+    min-height: 100px;
+    text-align: center;
+    color: var(--color-five);
+    background: none;  
+    border: none;
+    position: sticky;
+    top: calc(50% - 15%);  
+}
+  
+.slide button:hover {
+    background: var(--color-two);
+    opacity: 0.5;
+}
+  
+.slide div {
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: var(--color-five);
+    position: sticky;
+    z-index: 9;
+    bottom: 100%;
+}
+  
+#prev {
+    float: left;
+}
+  
+#next {
+    float: right;
+}
+  
+#slide-1 {
+    background-image: none;
+}
+  
+#slide-2 {
+    background-image: none;
+}
+  
+#slide-3 {
+    background-image: none;
+}
+  
+#slide-4 {
+    background-image: none;
+}
