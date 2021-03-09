@@ -61,7 +61,6 @@ body{
     background-color: #FFD597;
 }
 
-.footer .content{
-    margin: 5%;
-    margin-top: 0%;
+.footer-item{
+    color:black;
 }
