@@ -34,31 +34,61 @@ body{
 .subcatchcopy{
     font-size: 18px;
 }
-.circle{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    
-    border-radius: 50%;
+
+/* ---------------- */
+
+.discover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin-top: 20px;
+    color:black;
+    font-size:20px;
+    font-weight: 700;
+
+    position: static;
 }
 
-#circle1{    
-    top: 467px;
-    background: #9B51E0;
+.discover-line{
+    position: static;
+    width: 100px;
+    margin:10px;
+    border: 2px solid #18192F;
 }
 
-#circle2{    
-    top: 160px;
-    right:40%;
-    background: #FFD336;
+.basi-img-container{
+    height: 80vh;
+}
+.basi-img{
+    background-image: url(/img/atelierbasi.png);
+    right: -10%;
+    top:-10%;
+    height:100vh;
+    width:50vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.program-img{
+    width: 5vw;
 }
 
 #home-second{
     background-color:#F8F8F8;
 }
 
+#home-second .subtitle{
+    margin-bottom: 2%;
+}
+
 #home-third{
     background-color: #FFD597;
+}
+
+#home-third .title{
+    margin-bottom: 0px;
 }
 
 .footer-item{
