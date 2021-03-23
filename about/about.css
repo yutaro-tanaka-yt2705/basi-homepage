@@ -8,9 +8,12 @@
 #about-second{
     background-color: #F8F8F8;
 }
-#about-third{height: 90vh;}
+#about-third{height: 90vh;
+    overflow: hidden;
+}
 #about-forth{
-    height: 90vh;
+    height: 100vh;
+    overflow: hidden;
     background-color: #F8F8F8;
 }
 #about-fifth{
