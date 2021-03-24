@@ -33,18 +33,21 @@
 }
 .tile.is-child{
     background-color: white;
-    border-radius: 10px;
-    margin:20px;
+    border-radius: 0.55rem;
+    display: table-cell;
+    vertical-align: middle;
+    float:left;
 }
 
 .tile .subcatchcopy{
-    font-size: 1.5rem;
-    margin:15px;
+    font-size: 1.8rem;
+    margin:0.9rem;
 }
 
 .tile.is-vertical{
     height:40vh;
 }
 .tile{
-    padding:15px;
+    padding:0.9rem;
 }
+
