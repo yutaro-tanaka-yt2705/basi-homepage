@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg873"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="school-proportion-image.svg">
+  <defs
+     id="defs867" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="417.86418"
+     inkscape:cy="526.7275"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1918"
+     inkscape:window-height="2114"
+     inkscape:window-x="1910"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata870">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f7d8a2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.475623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+       d="m 208.64285,118.61408 c 0,55.98592 -45.26788,101.37148 -101.10863,101.37148 -55.840751,0 -101.1086272,-45.38556 -101.1086272,-101.37148 0,-55.985908 45.2678762,-101.371462 101.1086272,-101.371462 55.84075,2e-6 101.10863,45.385556 101.10863,101.371462 z"
+       id="path877"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g881"
+       transform="matrix(1.7953021,0,0,1.7999692,-88.575797,-88.868882)"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <path
+         style="fill:#ee9574;fill-opacity:1;stroke-width:0.503034"
+         id="path879"
+         sodipodi:type="arc"
+         sodipodi:cx="109.23511"
+         sodipodi:cy="116.97414"
+         sodipodi:rx="43.65625"
+         sodipodi:ry="43.65625"
+         sodipodi:start="0.88708702"
+         sodipodi:end="4.712389"
+         sodipodi:arc-type="slice"
+         d="M 136.81158,150.81799 A 43.65625,43.65625 0 0 1 84.896023,153.21606 43.65625,43.65625 0 0 1 67.473554,104.25247 43.65625,43.65625 0 0 1 109.23511,73.317886 v 43.656254 z" />
+    </g>
+    <path
+       style="fill:#f6af95;fill-opacity:1;stroke-width:0.904271"
+       id="path883"
+       sodipodi:type="arc"
+       sodipodi:cx="107.53423"
+       sodipodi:cy="118.61411"
+       sodipodi:rx="78.376152"
+       sodipodi:ry="78.57991"
+       sodipodi:start="0.88708702"
+       sodipodi:end="4.712389"
+       sodipodi:arc-type="slice"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       d="M 157.04233,179.53201 A 78.376152,78.57991 0 0 1 63.838226,183.84847 78.376152,78.57991 0 0 1 32.559634,95.715502 78.376152,78.57991 0 0 1 107.53423,40.034203 v 78.579907 z" />
+    <path
+       style="fill:#ee9574;fill-opacity:1;stroke:none;stroke-width:0.475623px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 155.51122,180.74841 1.53109,-1.21644 v 3.06686 z"
+       id="path886"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.0249px;line-height:1.25;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.475623"
+       x="67.095985"
+       y="127.63036"
+       id="text890"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="scale(0.99870268,1.001299)"><tspan
+         sodipodi:role="line"
+         id="tspan888"
+         x="67.095985"
+         y="127.63036"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.0249px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.475623">1人</tspan></text>
+    <path
+       style="fill:#c59e88;fill-opacity:1;stroke:none;stroke-width:0.449416"
+       id="path892"
+       sodipodi:type="arc"
+       sodipodi:cx="107.53419"
+       sodipodi:cy="118.61411"
+       sodipodi:rx="74.055168"
+       sodipodi:ry="74.247688"
+       sodipodi:start="0"
+       sodipodi:end="0.8888598"
+       sodipodi:arc-type="slice"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       d="m 181.58936,118.61411 a 74.055168,74.247688 0 0 1 -27.37838,57.64246 l -46.67679,-57.64246 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.1537px;line-height:1.25;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.303842"
+       x="133.2773"
+       y="142.33649"
+       id="text896"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="scale(0.99870268,1.001299)"><tspan
+         sodipodi:role="line"
+         id="tspan894"
+         x="133.2773"
+         y="142.33649"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.1537px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.303842">2~5人</tspan></text>
+    <path
+       style="fill:#e2a2dc;fill-opacity:1;stroke:none;stroke-width:0.449417"
+       id="path898"
+       sodipodi:type="arc"
+       sodipodi:cx="-48.784328"
+       sodipodi:cy="152.3797"
+       sodipodi:rx="74.1996"
+       sodipodi:ry="74.103348"
+       sodipodi:start="5.7595865"
+       sodipodi:end="1.0471976"
+       sodipodi:arc-type="slice"
+       transform="matrix(0.49902672,-0.8665866,0.86546238,0.50097392,0,0)"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       d="m 15.474409,115.32802 a 74.1996,74.103348 0 0 1 7.412573,56.23104 74.1996,74.103348 0 0 1 -34.571513,44.99602 L -48.784328,152.3797 Z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.1537px;line-height:1.25;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.303842"
+       x="117.90283"
+       y="92.369415"
+       id="text902"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="scale(0.99870268,1.001299)"><tspan
+         sodipodi:role="line"
+         id="tspan900"
+         x="117.90283"
+         y="92.369415"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.1537px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.303842">5人以上</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.4256px;line-height:1.25;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.285642"
+       x="61.251068"
+       y="239.0955"
+       id="text907"
+       inkscape:export-filename="C:\Users\keidaroo\development\basi-homepage\img\school_proportion.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="scale(0.99870268,1.001299)"><tspan
+         sodipodi:role="line"
+         id="tspan905"
+         x="61.251068"
+         y="239.0955"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.4256px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285642">受講生の出身校の</tspan><tspan
+         sodipodi:role="line"
+         x="61.251068"
+         y="253.3775"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.4256px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285642"
+         id="tspan909">海外大学進学人数</tspan></text>
+  </g>
+</svg>
