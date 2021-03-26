@@ -1,0 +1,27 @@
+#team-top {
+  height: 40vh;
+}
+
+#team-top > .title {
+  padding-left: 5vw;
+  z-index: 1;
+}
+
+#about-top-image {
+  background-image: url("../img/team-top.jpg");
+  position: absolute;
+  width: 70vw;
+  height: 30vh;
+  right: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+}
+
+#team-member{
+    background-color: #f8f8f8;
+}
+
+.card{
+    margin:5px;
+}

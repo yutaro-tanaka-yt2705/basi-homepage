@@ -1,35 +1,78 @@
-#about-top{
-    height:90vh;
-    background-repeat: no-repeat;
-    background-size: contain;
-      background-position: center;
-    background-image: url(https://previews.123rf.com/images/casanowe/casanowe1702/casanowe170200213/70970335-%E7%99%BD%E3%81%84%E8%83%8C%E6%99%AF%E3%81%AB%E5%88%86%E9%9B%A2%E3%81%97%E3%81%9F%E3%82%AF%E3%83%BC%E3%83%94%E3%83%BC%E3%81%97%E3%81%BE%E3%81%99%E3%80%82.jpg);
-}
-#about-second{
-    background-color: #F8F8F8;
-}
-#about-third{height: 90vh;}
-#about-forth{
-    height: 90vh;
-    background-color: #F8F8F8;
-}
-#about-fifth{
-    background-color: #FFD597;
+#about-top {
+  height: 70vh;
 }
 
-.slide-text{
-    position: relative;
+#about-top > .title {
+  padding-left: 5vw;
+  z-index: 1;
 }
 
-#slider{
-    background-color: #5c5c5c;
-    color: white;
+#about-top-image {
+  background-image: url("../img/about_top.jpg");
+  position: absolute;
+  width: 60vw;
+  height: 80vh;
+  right: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
 }
-#slider .subtitle{
-    color:white;
+
+#about-second {
+  background-color: #f8f8f8;
 }
-#about-sixth{
-    background-color: #A6D2F4;
+#about-third {
+  background-color: white;
+}
+
+.mid-image {
+  right: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: contain;
+}
+#map-image {
+  width: 50vw;
+  height: 40vh;
+  background-image: url("../img/日本地図.png");
+}
+
+#school-proportion-image {
+  width: 50vw;
+  height: 50vh;
+  background-image: url("../img/school-proportion-image.svg");
+}
+
+#about-forth {
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+#about-fifth {
+  background-color: #fff;
+}
+
+.cost-image{
+
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: contain;
+  height: 50vh;
+  background-image: url("../img/juku.svg");
+}
+
+.slide-text {
+  position: relative;
+}
+
+#slider {
+  background-color: #5c5c5c;
+  color: white;
+}
+#slider .subtitle {
+  color: white;
+}
+#about-sixth {
+  background-color: #a6d2f4;
 }
 .tile.is-child{
     background-color: white;
@@ -44,8 +87,11 @@
     margin:0.9rem;
 }
 
-.tile.is-vertical{
-    height:40vh;
+.tile.is-vertical {
+  height: 40vh;
+}
+.tile {
+  padding: 15px;
 }
 .tile{
     padding:0.9rem;
