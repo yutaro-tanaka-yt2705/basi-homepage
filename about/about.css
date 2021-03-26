@@ -1,5 +1,5 @@
 #about-top {
-  height: 90vh;
+  height: 70vh;
 }
 
 #about-top > .title {
@@ -10,7 +10,7 @@
 #about-top-image {
   background-image: url("../img/about_top.jpg");
   position: absolute;
-  width: 70vw;
+  width: 60vw;
   height: 80vh;
   right: 0;
   background-repeat: no-repeat;
@@ -32,8 +32,8 @@
   background-size: contain;
 }
 #map-image {
-  width: 60vw;
-  height: 50vh;
+  width: 50vw;
+  height: 40vh;
   background-image: url("../img/日本地図.png");
 }
 
@@ -48,7 +48,16 @@
   background-color: #f8f8f8;
 }
 #about-fifth {
-  background-color: #ffd597;
+  background-color: #fff;
+}
+
+.cost-image{
+
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: contain;
+  height: 50vh;
+  background-image: url("../img/juku.svg");
 }
 
 .slide-text {
