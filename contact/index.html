@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atelier Basi - Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div id="logo">
+        <a href="../index.html"><img src="../img/logo.png" width="182" /></a>
+      </div>
+      <!--navbar menuやらなんやら後ほど入れる-->
+      <div class="navbar-start">
+        <a class="navbar-item" href="../about/index.html"> About </a>
+        <a class="navbar-item" href="../team/index.html"> Team </a>
+        <a class="navbar-item"> Blog </a> 
+        <a class="navbar-item" href="../contact/index.html"> Contact </a>
+      </div>
+    </nav>
+
+    <section class="section is-primary is-vcentered columns" id="contact-top">
+      <div class="title column">Contact</div>
+    </section>
+
+    <section
+      class="section is-vcentered is-centered columns googleform-wrapper"
+      id="contact-second"
+    >
+      <iframe
+        class="column"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSc977nzozu5NevcCqVBFtjuJ6_Oluer36LvYV7g-bBuhOlrnw/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >読み込んでいます…</iframe
+      >
+    </section>
+
+    <script src="../node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script type="module" src="about.js"></script>
+  </body>
+  <footer class="footer">
+    <div class="columns">
+      <div class="column is-1"></div>
+      <div class="column">
+        <img src="../img/logo.png" width="182" />
+      </div>
+      <div class="column"></div>
+    </div>
+    <div class="content">
+      <div class="columns">
+        <div class="column is-1"></div>
+        <div class="column">
+          <div class="columns">
+            <a class="column footer-item"> About </a>
+            <a class="column footer-item"> Team </a>
+            <a class="column footer-item"> Blog </a>
+            <a class="column footer-item"> Content </a>
+          </div>
+        </div>
+        <div class="column is-3"></div>
+        <div class="column"></div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-1"></div>
+      <div class="column">©Atelier Basi 2021</div>
+      <div class="column"></div>
+    </div>
+  </footer>
+</html>
