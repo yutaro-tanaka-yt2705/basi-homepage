@@ -74,15 +74,17 @@
 #about-sixth {
   background-color: #a6d2f4;
 }
-.tile.is-child {
-  background-color: white;
-  border-radius: 10px;
-  margin: 20px;
+.tile.is-child{
+    background-color: white;
+    border-radius: 0.55rem;
+    display: table-cell;
+    vertical-align: middle;
+    float:left;
 }
 
-.tile .subcatchcopy {
-  font-size: 1.5rem;
-  margin: 15px;
+.tile .subcatchcopy{
+    font-size: 1.8rem;
+    margin:0.9rem;
 }
 
 .tile.is-vertical {
@@ -91,3 +93,7 @@
 .tile {
   padding: 15px;
 }
+.tile{
+    padding:0.9rem;
+}
+
