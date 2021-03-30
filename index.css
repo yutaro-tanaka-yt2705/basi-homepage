@@ -7,6 +7,10 @@ body {
   font-family: "Kiwi Maru", serif;
 }
 
+.white-text{
+  color: #f8f8f8;
+}
+
 #logo {
   position: absolute;
   text-align: center;
@@ -41,11 +45,11 @@ body {
   font-size: 48px;
 }
 .subcatchcopy {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 .subtext {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 22px;
 }
 
@@ -53,7 +57,7 @@ body {
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
+  background-color: #f8f8f8;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -61,26 +65,25 @@ body {
   text-align: left;
   border: none;
   outline: none;
-  transition: 0.4s;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #fff;
 }
 
 /* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
+.accordionAfter {
+  margin: 0;
+  background-color: #ebebeb;
   display: none;
   overflow: hidden;
+  padding: 10px;
 }
 
 .accordion:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
+  color: #e7e7e7;
   float: right;
   margin-left: 5px;
 }
@@ -140,13 +143,15 @@ body {
 }
 
 #home-third {
-  background-color: #ffd597;
+  background-color: #5c5c5c;
 }
 
 #home-third .title {
   margin-bottom: 0px;
 }
-
+#home-forth{
+background-color: #ececec;
+}
 .footer-item {
   color: black;
 }

@@ -74,10 +74,10 @@
   color: white;
 }
 #about-sixth {
-  background-color: #a6d2f4;
+  background-color: #f8f8f8;
 }
 .tile.is-child{
-    background-color: white;
+    background-color: #FFE37D;
     border-radius: 0.55rem;
     display: table-cell;
     vertical-align: middle;
