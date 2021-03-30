@@ -7,7 +7,21 @@ body {
   font-family: "Kiwi Maru", serif;
 }
 
-.white-text{
+.under-blue {
+  background: linear-gradient(transparent 70%, #bde2ff 70%);
+}
+
+.under-yellow {
+  background: linear-gradient(transparent 70%, #ffe37d 70%);
+}
+
+.text-yellow {
+  color: #ffe37d;
+}
+.text-blue {
+  color: #bde2ff;
+}
+.white-text {
   color: #f8f8f8;
 }
 
@@ -68,7 +82,8 @@ body {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active,
+.accordion:hover {
   background-color: #fff;
 }
 
@@ -82,7 +97,7 @@ body {
 }
 
 .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
   color: #e7e7e7;
   float: right;
   margin-left: 5px;
@@ -91,11 +106,6 @@ body {
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
-
-
-
-
-
 
 .discover {
   display: flex;
@@ -149,8 +159,8 @@ body {
 #home-third .title {
   margin-bottom: 0px;
 }
-#home-forth{
-background-color: #ececec;
+#home-forth {
+  background-color: #ececec;
 }
 .footer-item {
   color: black;

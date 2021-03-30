@@ -19,9 +19,29 @@
 }
 
 #team-member{
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 
-.card{
+.card {
     margin:5px;
+  border-radius: 15px;
+  background-color: #fdfdfd;
+}
+
+figure>img{
+  max-height: 100%;
+  width: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.name{
+  font-size: 1.2rem;
+  font-family: "Kiwi Maru", serif;
+  background: linear-gradient(transparent 70%, #ADE090 70%);
+}
+
+.subname{
+  font-size: 1rem;
+  font-family: "Kiwi Maru", serif;
 }
