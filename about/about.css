@@ -15,6 +15,7 @@
   right: 0;
   background-repeat: no-repeat;
   overflow: hidden;
+  background-position: center;
   background-size: cover;
 }
 
@@ -77,9 +78,6 @@
 .tile.is-child{
     background-color: #FFE37D;
     border-radius: 0.55rem;
-    display: table-cell;
-    vertical-align: middle;
-    float:left;
 }
 
 .tile .subcatchcopy{
@@ -87,13 +85,9 @@
     margin:0.9rem;
 }
 
-.tile.is-vertical {
-  height: 40vh;
-}
-.tile {
-  padding: 15px;
-}
+
+
 .tile{
-    padding:0.9rem;
+   padding:0.9rem;
 }
 
