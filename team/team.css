@@ -1,12 +1,18 @@
 #team-top {
   height: 70vh;
 }
+#team-top-mobile {
+  height: 60vh;
+  padding:0;
+}
 
 #team-top > .title {
   padding-left: 5vw;
   z-index: 1;
 }
-
+#team-top-mobile > .title {
+  z-index: 1;
+}
 #about-top-image {
   background-image: url("../img/team-top.jpg");
   position: absolute;
@@ -17,6 +23,17 @@
   overflow: hidden;
   background-size: cover;
 }
+
+#about-top-image-mobile {
+  background-image: url("../img/team-top.jpg");
+  height: 50vh;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow: hidden;
+  background-size: cover;
+}
+
 
 #team-member{
     background-color: #fff;

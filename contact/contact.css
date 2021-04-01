@@ -1,6 +1,10 @@
 #contact-top {
   height: 70vh;
 }
+#contact-top-mobile {
+  height: 70vh;
+  padding: 0;
+}
 
 #contact-top > .title {
   padding-left: 5vw;
@@ -33,6 +37,17 @@
   position: absolute;
   width: 60vw;
   height: 60vh;
+  right: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+#contact-top-image-mobile {
+  background-image: url("../img/contact_top.jpg");
+  width: 100vw;
+  height: 50vh;
   right: 0;
   background-repeat: no-repeat;
   overflow: hidden;

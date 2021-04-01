@@ -39,6 +39,14 @@
       <a href="../index.html"><img src="../img/logo.png" width="182" /></a>
     </div>
     <!--navbar menuやらなんやら後ほど入れる-->
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+</a>
+
+<div class="navbar-menu" id="navMenu">
+  
     <div class="navbar-start">
       <a class="navbar-item" href="../index.html"> Home</a>
       <a class="navbar-item" href="../about/index.html"> About </a>
@@ -46,18 +54,24 @@
       <a class="navbar-item" href="../contact/index.html"> Contact </a>
             <a class="navbar-item has-text-link" target="_blank" href="https://atelier-basi.themedia.jp/"> <i class="fas fa-external-link-alt"></i> Blog </a>
     </div> <div class="navbar-end">
-        <a class="navbar-item" href="https://twitter.com/AtelierBasi"> 
+        <a class="navbar-item is-hidden-touch" href="https://twitter.com/AtelierBasi"> 
         <i class="fab fa-twitter-square"></i>
         </a>
-        <a class="navbar-item" href="https://www.facebook.com/atelierbasi/"> 
+        <a class="navbar-item is-hidden-touch" href="https://www.facebook.com/atelierbasi/"> 
         <i class="fab fa-facebook-square"></i>
         </a>
-      </div>
+      </div></div>
   </nav>
 
-  <section class="section is-primary is-vcentered columns" id="about-top">
+  <section class="section is-primary is-vcentered columns is-hidden-touch" id="about-top">
     <div class="title column">About Us</div>
     <div id="about-top-image"></div>
+  </section>
+
+  <section class="section is-primary is-vcentered columns is-hidden-desktop" id="about-top-mobile">
+    <div id="about-top-image-mobile"></div>
+    <br>
+    <div class="title column has-text-centered">About Us</div>
   </section>
 
   <section class="section is-medium japanese" id="about-second">
@@ -101,7 +115,7 @@
       <div class="column is-1"></div>
       <div class="column is-vcentered">
         <div class="subtitle">
-          「<span class="under-yellow">前例がない</span>」を<br />理由にさせない！
+          「<span class="under-yellow">前例がない</span>」を<span class="is-hidden-mobile"><br /></span>理由にさせない！
         </div>
         <div class="subcatchcopy">受講生の出身高校の？＄％は～～</div>
       </div>
@@ -179,7 +193,7 @@
           </li>
         </ul>
       </div>
-      <div class="glide__arrows" data-glide-el="controls">
+      <div class="glide__arrows is-hidden-touch" data-glide-el="controls">
         <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
           〈
         </button>
