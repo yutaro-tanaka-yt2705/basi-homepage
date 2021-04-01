@@ -35,6 +35,14 @@
         <a href="index.html"><img src="img/logo.png" width="182" /></a>
       </div>
       <!--navbar menuやらなんやら後ほど入れる-->
+<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+</a>
+
+<div class="navbar-menu" id="navMenu">
+  
       <div class="navbar-start">
         <a class="navbar-item" href="index.html"> Home</a>
         <a class="navbar-item" href="about/index.html"> About </a>
@@ -45,13 +53,14 @@
         </a>
       </div>
       <div class="navbar-end">
-        <a class="navbar-item" href="https://twitter.com/AtelierBasi">
+        <a class="navbar-item is-hidden-touch" href="https://twitter.com/AtelierBasi">
           <i class="fab fa-twitter-square"></i>
         </a>
-        <a class="navbar-item" href="https://www.facebook.com/atelierbasi/">
+        <a class="navbar-item is-hidden-touch" href="https://www.facebook.com/atelierbasi/">
           <i class="fab fa-facebook-square"></i>
         </a>
       </div>
+    </div>
     </nav>
 
     <section class="section is-primary" id="home-top">
@@ -73,7 +82,7 @@
             </div>
           </a>
         </div>
-        <div class="column">
+        <div class="column basi-img-top-container">
           <div class="basi-img-container">
             <div class="image basi-img"></div>
           </div>
