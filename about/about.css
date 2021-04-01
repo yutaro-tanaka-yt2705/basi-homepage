@@ -85,7 +85,9 @@
     margin:0.9rem;
 }
 
-
+.supporter-name{
+  font-size: 1.2rem;
+}
 
 .tile{
    padding:0.9rem;
