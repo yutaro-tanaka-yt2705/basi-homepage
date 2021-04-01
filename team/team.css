@@ -1,5 +1,5 @@
 #team-top {
-  height: 60vh;
+  height: 70vh;
 }
 
 #team-top > .title {
@@ -10,8 +10,8 @@
 #about-top-image {
   background-image: url("../img/team-top.jpg");
   position: absolute;
-  width: 70vw;
-  height: 50vh;
+  width: 60vw;
+  height: 60vh;
   right: 0;
   background-repeat: no-repeat;
   overflow: hidden;

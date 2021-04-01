@@ -34,7 +34,7 @@
 }
 #map-image {
   width: 50vw;
-  height: 40vh;
+  height: 50vh;
   background-image: url("../img/日本地図.png");
   background-position: center;
 }
@@ -42,8 +42,8 @@
 #school-proportion-image {
   width: 50vw;
   background-position: center;
-  height: 50vh;
-  background-image: url("../img/school-proportion-image.svg");
+  height: 60vh;
+  background-image: url("../img/school_proportion.svg");
 }
 
 #about-forth {
