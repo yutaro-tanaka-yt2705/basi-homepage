@@ -34,7 +34,7 @@ body {
 .navbar-start {
   padding-left: 2rem;
 }
-.navbar-end{
+.navbar-end {
   padding-right: 1rem;
 }
 .navbar {
@@ -47,14 +47,13 @@ body {
 .full-height {
   height: 100%;
 }
-.fab{
+.fab {
   font-size: 1.4rem;
 }
 .title {
   font-weight: 800;
   font-size: 72px;
 }
-
 
 .subtitle {
   font-weight: 500;
@@ -72,7 +71,7 @@ body {
   font-size: 15px;
   line-height: 22px;
 }
-.navbar-burger{
+.navbar-burger {
   margin-left: 0;
 }
 
@@ -175,80 +174,75 @@ body {
   color: black;
 }
 
+@media screen and (max-width: 480px) {
+  .navbar-start {
+    padding-left: 2rem;
+  }
+  .navbar-end {
+    padding-right: 1rem;
+  }
+  .navbar {
+    box-shadow: 0px 4px 4px rgba(153, 153, 153, 0.25);
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+  }
 
+  .full-height {
+    height: 100%;
+  }
+  .fab {
+    font-size: 1.4rem;
+  }
+  .title {
+    font-weight: 800;
+    font-size: 3rem;
+  }
 
-@media screen and (max-width:480px) {
+  .subtitle {
+    font-weight: 500;
+    font-size: 2.2rem;
+  }
+  .subtitle.english {
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+  .subcatchcopy {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .subtext {
+    font-size: 1rem;
+    line-height: 22px;
+  }
+  .basi-img-top-container {
+    height: 80vw;
+  }
 
+  .basi-img-container {
+    top:-10vh;
+    height:100vw;
+    padding: 0;
+    width:110vw;
+    position: relative;
+  }
+  .basi-img {
+    background-image: url(./img/atelierbasi.png);
+    height:100vw;
+    width:auto;
+    z-index: -1;
+    right:0;
+    top:0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
 
-
-.navbar-start {
-  padding-left: 2rem;
-}
-.navbar-end{
-  padding-right: 1rem;
-}
-.navbar {
-  box-shadow: 0px 4px 4px rgba(153, 153, 153, 0.25);
-  font-family: "Manrope", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.full-height {
-  height: 100%;
-}
-.fab{
-  font-size: 1.4rem;
-}
-.title {
-  font-weight: 800;
-  font-size: 3rem;
-}
-
-
-.subtitle {
-  font-weight: 500;
-  font-size: 2.2rem;
-}
-.subtitle.english {
-  font-weight: 600;
-  font-size: 2.2rem;
-}
-.subcatchcopy {
-  font-size: 1.1rem;
-  font-weight: 400;
-}
-.subtext {
-  font-size: 1rem;
-  line-height: 22px;
-}
-.basi-img-top-container {
-  display: none;
-  position:absolute;
-  right:0;
-  top:20vh;
-}
-
-.basi-img-container {
-  width: 90vw;
-}
-.basi-img {
-  background-image: url(./img/atelierbasi.png);
-  width: 90vw;
-  z-index: -1;
-  right: -10%;
-  margin-right: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.program-img {
-  width: 70vw;
-}
-#home-third .program-img{
-  display: none;
-}
-
-
-
+  .program-img {
+    width: 70vw;
+  }
+  #home-third .program-img {
+    display: none;
+  }
 }

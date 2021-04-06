@@ -35,37 +35,57 @@
         <a href="index.html"><img src="img/logo.png" width="182" /></a>
       </div>
       <!--navbar menuやらなんやら後ほど入れる-->
-<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-  <span aria-hidden="true"></span>
-  <span aria-hidden="true"></span>
-  <span aria-hidden="true"></span>
-</a>
+      <a
+        role="button"
+        class="navbar-burger"
+        data-target="navMenu"
+        aria-label="menu"
+        aria-expanded="false"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
 
-<div class="navbar-menu" id="navMenu">
-  
-      <div class="navbar-start">
-        <a class="navbar-item" href="index.html"> Home</a>
-        <a class="navbar-item" href="about/index.html"> About </a>
-        <a class="navbar-item" href="team/index.html"> Team </a>
-        <a class="navbar-item" href="contact/index.html"> Contact </a>
-              <a class="navbar-item has-text-link" target="_blank"  href="https://atelier-basi.themedia.jp/">
-          <i class="fas fa-external-link-alt"></i> Blog
-        </a>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html"> Home</a>
+          <a class="navbar-item" href="about/index.html"> About </a>
+          <a class="navbar-item" href="team/index.html"> Team </a>
+          <a class="navbar-item" href="contact/index.html"> Contact </a>
+          <a
+            class="navbar-item has-text-link"
+            target="_blank"
+            href="https://atelier-basi.themedia.jp/"
+          >
+            <i class="fas fa-external-link-alt"></i> Blog
+          </a>
+        </div>
+        <div class="navbar-end">
+          <a
+            class="navbar-item is-hidden-touch"
+            href="https://twitter.com/AtelierBasi"
+          >
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a
+            class="navbar-item is-hidden-touch"
+            href="https://www.facebook.com/atelierbasi/"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </div>
       </div>
-      <div class="navbar-end">
-        <a class="navbar-item is-hidden-touch" href="https://twitter.com/AtelierBasi">
-          <i class="fab fa-twitter-square"></i>
-        </a>
-        <a class="navbar-item is-hidden-touch" href="https://www.facebook.com/atelierbasi/">
-          <i class="fab fa-facebook-square"></i>
-        </a>
-      </div>
-    </div>
     </nav>
 
     <section class="section is-primary" id="home-top">
       <div class="columns is-fullheight is-vcentered">
-        <div class="column is-1"></div>
+        <div class="column is-1 is-hidden-touch"></div>
+        <div class="column basi-img-top-container is-hidden-desktop">
+          <div class="basi-img-container is-centered">
+            <div class="image basi-img"></div>
+          </div>
+        </div>
         <div class="column">
           <div class="title">
             We <span class="under-blue">demystify</span> admissions
@@ -82,7 +102,7 @@
             </div>
           </a>
         </div>
-        <div class="column basi-img-top-container">
+        <div class="column basi-img-top-container is-hidden-touch">
           <div class="basi-img-container">
             <div class="image basi-img"></div>
           </div>
@@ -305,22 +325,90 @@
             随時ご支援・協賛・プロボノを募集しておりますので、Contactページよりその旨をお伝えいただければ、詳細などについて折り返しメールを差し上げます。ご連絡を心よりお待ちしております。
           </p>
         </div>
+        <button class="accordion">
+          受講生となった場合、次年度は必ずメンターにならないといけないのでしょうか？
+        </button>
+        <div class="accordionAfter">
+          <p>
+            メンターは強制ではありません。日本に高校生を応援したいという思いを持つ有志がメンターをしております。
+          </p>
+        </div>
+        <button class="accordion">
+          受講料はないとのことですが、団体の運営資金はどこから来ていますか？
+        </button>
+        <div class="accordionAfter">
+          <p>
+            クラウドファンディングを含め、多くの方々の寄付で成り立っております。
+          </p>
+        </div>
+
+        <button class="accordion">セッションの時間おしえてください</button>
+        <div class="accordionAfter">
+          <p>
+            受講生の予定を確認しつつ、毎週柔軟に対応していきたいと考えております。
+          </p>
+        </div>
+
+        <button class="accordion">
+          非英語圏の大学志望なのですがatelier
+          basiに応募することは可能でしょうか?
+        </button>
+        <div class="accordionAfter">
+          <p>
+            授業が英語で行われる非英語圏の大学だとしても応募可能です。詳細に関しては柔軟に対応していけたらと思っています。
+          </p>
+        </div>
       </div>
     </section>
 
     <section class="section is-medium subtext columns" id="home-fifth">
       <div class="column is-1"></div>
       <div class="column has-text-centered">
-        <a class="twitter-timeline" data-height="600" data-width="600" data-theme="dark" href="https://twitter.com/AtelierBasi?ref_src=twsrc%5Etfw">Tweets by AtelierBasi</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a
+          class="twitter-timeline"
+          data-height="600"
+          data-width="600"
+          data-theme="dark"
+          href="https://twitter.com/AtelierBasi?ref_src=twsrc%5Etfw"
+          >Tweets by AtelierBasi</a
+        >
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
       </div>
       <div class="column has-text-centered">
-<div class="fb-page" data-href="https://www.facebook.com/atelierbasi/" data-tabs="timeline" data-width="600" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/atelierbasi/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/atelierbasi/">atelier basi</a></blockquote></div>
+        <div
+          class="fb-page"
+          data-href="https://www.facebook.com/atelierbasi/"
+          data-tabs="timeline"
+          data-width="600"
+          data-height="600"
+          data-small-header="false"
+          data-adapt-container-width="true"
+          data-hide-cover="false"
+          data-show-facepile="false"
+        >
+          <blockquote
+            cite="https://www.facebook.com/atelierbasi/"
+            class="fb-xfbml-parse-ignore"
+          >
+            <a href="https://www.facebook.com/atelierbasi/">atelier basi</a>
+          </blockquote>
+        </div>
       </div>
       <div class="column is-1"></div>
     </section>
   </body>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v10.0" nonce="GH1mDQML"></script>
+  <div id="fb-root"></div>
+  <script
+    async
+    defer
+    crossorigin="anonymous"
+    src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v10.0"
+    nonce="GH1mDQML"
+  ></script>
   <script type="module" src="home.js"></script>
   <footer class="footer">
     <div class="columns">
@@ -337,9 +425,15 @@
           <div class="columns">
             <a class="column footer-item" href="about/index.html"> About </a>
             <a class="column footer-item" href="team/index.html"> Team </a>
-            <a class="column footer-item" href=""> Blog </a>
             <a class="column footer-item" href="contact/index.html">
               Contact
+            </a>
+            <a
+              class="column footer-item"
+              target="_blank"
+              href="https://atelier-basi.themedia.jp/"
+            >
+              <i class="fas fa-external-link-alt"></i> Blog
             </a>
           </div>
         </div>
