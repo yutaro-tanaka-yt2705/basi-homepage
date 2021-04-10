@@ -3,7 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>atelier basi - Team</title>
+
+    <meta property="og:url" content="https://atelierbasi.com">
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="atelier basi"/>
+    <meta property="og:description" content="熱意ある学生が自分らしい進路を選択できる社会を目指す、atelier basiです。"/>
+    <meta property="og:site_name" content="atelier basiのホームページ"/>
+    <meta property="og:image" content="http://atelierbasi.sakura.ne.jp/img/thumbnail2.jpg"/>
+
+    <meta name= "twitter:card" content="summary_large_image" />
+    <meta name= "twitter:image" content="http://atelierbasi.sakura.ne.jp/img/thumbnail2.jpg"/>
+
+
+    <title>atelier basi</title>
+    <meta name="description" content="熱意ある学生が自分らしい進路を選択できる社会を目指す、atelier basiです。"/> 
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
@@ -23,6 +36,19 @@
       src="https://kit.fontawesome.com/0c97f811dc.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HG8F9P4GT3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-HG8F9P4GT3");
+    </script>
   </head>
 
   <body>
@@ -81,8 +107,8 @@
     <section class="section is-primary" id="home-top">
       <div class="columns is-fullheight is-vcentered">
         <div class="column is-1 is-hidden-touch"></div>
-        <div class="column basi-img-top-container is-hidden-desktop">
-          <div class="basi-img-container is-centered">
+        <div class="column basi-img-top-container is-hidden-desktop is-hidden-tablet-only">
+          <div class="basi-img-container is-centered ">
             <div class="image basi-img"></div>
           </div>
         </div>
@@ -109,10 +135,15 @@
         </div>
       </div>
     </section>
-
+    <section class="section" id="apply-section">
+      <div class="has-text-centered japanese  apply-text">
+        2021年度受講生募集中
+        <a class=" apply-text" href="./apply/index.html"><br>詳細はこちら</a>
+      </div>
+    </section>
     <section class="section is-medium" id="home-second">
       <div class="subtitle has-text-centered english">
-        <span class="under-blue">Our program.</span>
+        <span class="under-blue">Our program</span>
       </div>
 
       <div class="columns has-text-centered">
@@ -154,16 +185,16 @@
         <div class="column is-1"></div>
         <div class="column">
           <div class="subtitle english text-blue">
-            Our mentee’s achievements.
+            Our mentee’s achievements
           </div>
-          <div class="japanese subcatchcopy">今年度の実績</div>
+          <div class="japanese subcatchcopy">2020-2021年度の実績</div>
         </div>
         <div class="column">
           <div class="columns is-mobile">
             <div class="column">
               <div class="columns">
                 <div class="column is-4">
-                  <img class="program-img" src="./img/essayReview.png" />
+                  <i class="fas fa-glasses program-img"></i>
                 </div>
                 <div class="column">
                   <div class="title is-2 white-text">2000+</div>
@@ -174,7 +205,7 @@
             <div class="column">
               <div class="columns">
                 <div class="column is-4">
-                  <img class="program-img" src="./img/essayReview.png" />
+                  <i class="fas fa-book-open program-img"></i>
                 </div>
                 <div class="column">
                   <div class="title is-2 white-text">700+</div>
@@ -188,7 +219,7 @@
             <div class="column">
               <div class="columns">
                 <div class="column is-4">
-                  <img class="program-img" src="./img/essayReview.png" />
+                  <i class="fas fa-graduation-cap program-img"></i>
                 </div>
                 <div class="column">
                   <div class="title is-2 white-text">30+</div>
@@ -199,7 +230,7 @@
             <div class="column">
               <div class="columns">
                 <div class="column is-4">
-                  <img class="program-img" src="./img/essayReview.png" />
+                  <i class="far fa-comments program-img"></i>
                 </div>
                 <div class="column">
                   <div class="title is-2 white-text">45k</div>
@@ -226,9 +257,7 @@
           </p>
         </div>
 
-        <button class="accordion">
-          どれくらいの頻度でセッションは行われますか？
-        </button>
+        <button class="accordion">セッションはいつ開催していますか？</button>
         <div class="accordionAfter">
           <p>一週間に一回程度、オンラインで行われます。</p>
         </div>
@@ -280,7 +309,7 @@
         <div class="accordionAfter">
           <p>
             昨年度は、Boston University, Case Western Reserve University,
-            Columbia University, Georgia Institute of Technology, Stanford
+            Columbia University, Georgia Institute of Technology, Harvard University, Stanford
             University, University of California Berkeley, University of
             California Los Angeles, University of California San Diego,
             University of California Santa Barbara, University of Michigan,
@@ -330,7 +359,7 @@
         </button>
         <div class="accordionAfter">
           <p>
-            メンターは強制ではありません。日本に高校生を応援したいという思いを持つ有志がメンターをしております。
+            メンターは強制ではありません。日本の高校生を応援したいという思いを持つ有志がメンターをしております。
           </p>
         </div>
         <button class="accordion">
@@ -342,7 +371,7 @@
           </p>
         </div>
 
-        <button class="accordion">セッションの時間おしえてください</button>
+        <button class="accordion">セッションは、毎週何時に開催されますか。</button>
         <div class="accordionAfter">
           <p>
             受講生の予定を確認しつつ、毎週柔軟に対応していきたいと考えております。
@@ -355,7 +384,7 @@
         </button>
         <div class="accordionAfter">
           <p>
-            授業が英語で行われる非英語圏の大学だとしても応募可能です。詳細に関しては柔軟に対応していけたらと思っています。
+            非英語圏の大学にて授業が英語で開催される場合は応募可能です。詳細・個別の状況に関しては可能な限り柔軟に対応させて頂きたいと思います。
           </p>
         </div>
       </div>

@@ -150,8 +150,21 @@ body {
 
 .program-img {
   width: 10vw;
+  font-size:4vw;
 }
 
+#apply-section{
+  background-color: #ffe37d;
+}
+
+.apply-text{
+  color:#685d34;
+  font-size: 2rem;
+}
+
+.apply-text>.apply-text{
+    text-decoration: underline;
+}
 #home-second {
   background-color: #f8f8f8;
 }
