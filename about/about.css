@@ -75,6 +75,9 @@
 #about-sixth {
   background-color: #f8f8f8;
 }
+#about-seventh {
+  background-color: #fff;
+}
 .tile.is-child{
     background-color: #FFE37D;
     border-radius: 0.55rem;
@@ -91,6 +94,14 @@
 
 .tile{
    padding:0.9rem;
+}
+
+.outline-content{
+  text-align: left;
+}
+
+hr.solid {
+  border-top: 2px solid rgb(228, 228, 228);
 }
 
 
