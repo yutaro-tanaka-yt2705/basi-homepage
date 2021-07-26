@@ -63,6 +63,10 @@ body {
   font-weight: 600;
   font-size: 48px;
 }
+.subtitle.japanese {
+  font-weight: 400;
+  font-size: 32px;
+}
 .subcatchcopy {
   font-size: 1.2rem;
   font-weight: 400;
