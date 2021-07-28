@@ -44,6 +44,13 @@ body {
   font-size: 14px;
 }
 
+.navbar-item .is-rounded {
+  background: #82bec7 !important;
+  background: #a6d2f4!important;
+  color: white;
+  border-color: transparent !important;
+}
+
 .full-height {
   height: 100%;
 }
