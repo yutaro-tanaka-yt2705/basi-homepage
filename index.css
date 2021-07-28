@@ -44,6 +44,13 @@ body {
   font-size: 14px;
 }
 
+.navbar-item .is-rounded {
+  background: #82bec7 !important;
+  background: #a6d2f4!important;
+  color: white;
+  border-color: transparent !important;
+}
+
 .full-height {
   height: 100%;
 }
@@ -62,6 +69,10 @@ body {
 .subtitle.english {
   font-weight: 600;
   font-size: 48px;
+}
+.subtitle.japanese {
+  font-weight: 400;
+  font-size: 32px;
 }
 .subcatchcopy {
   font-size: 1.2rem;
