@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?atelierbasi\.sakura\.ne\.jp$ [NC]
+RewriteRule .* https://atelierbasi.com%{REQUEST_URI} [R=301,L]
